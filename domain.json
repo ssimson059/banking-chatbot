@@ -1,0 +1,81 @@
+{
+  "name": "Bank Assistant",
+  "bot": "BankBot",
+  "color": "#1d4ed8",
+  "greeting": "Hello, I'm BankBot. I can help with accounts, cards, loans and security tips. Never share your PIN or OTP here.",
+  "chips": [
+    "Open an account",
+    "Block my card",
+    "Loan options",
+    "Avoid fraud"
+  ],
+  "fallback": "I can help with accounts, cards, loans, UPI/net banking and security. For account-specific issues, please contact your branch.",
+  "system_prompt": "You are BankBot, a customer service assistant for a retail bank. Provide general banking information. Never ask for or accept PINs, passwords, OTPs or full card numbers. Remind users about fraud safety when relevant. Answer only questions related to this domain; politely redirect anything else. Keep replies short (under 120 words), clear and friendly.",
+  "faq": [
+    {
+      "keywords": [
+        "open account",
+        "new account",
+        "savings account"
+      ],
+      "answer": "To open a savings account you need ID proof (Aadhaar/passport), address proof, a PAN card and a passport-size photo. You can start online and complete video KYC."
+    },
+    {
+      "keywords": [
+        "block",
+        "lost card",
+        "stolen card"
+      ],
+      "answer": "Block your card immediately through the mobile app (Cards > Block) or call the 24/7 helpline printed on the back of your card. Then request a replacement."
+    },
+    {
+      "keywords": [
+        "loan",
+        "emi",
+        "interest"
+      ],
+      "answer": "We offer personal, home, vehicle and education loans. Interest rates and EMI depend on amount, tenure and credit score. Use the EMI calculator or visit a branch for an offer."
+    },
+    {
+      "keywords": [
+        "fraud",
+        "scam",
+        "phishing",
+        "otp"
+      ],
+      "answer": "Never share your PIN, CVV, password or OTP with anyone, including bank staff. Do not click unknown links. Report suspicious activity to your bank right away."
+    },
+    {
+      "keywords": [
+        "balance",
+        "statement"
+      ],
+      "answer": "Check your balance and download statements on the mobile app or net banking under Accounts > Statements."
+    },
+    {
+      "keywords": [
+        "upi",
+        "transfer",
+        "neft",
+        "imps",
+        "rtgs"
+      ],
+      "answer": "UPI and IMPS are instant, 24/7. NEFT settles in batches. RTGS is for large transfers (usually 2 lakh and above) during bank hours."
+    },
+    {
+      "keywords": [
+        "credit card",
+        "apply card"
+      ],
+      "answer": "You can apply for a credit card in the app. Approval depends on income, credit score and KYC. Keep your latest salary slip or ITR ready."
+    },
+    {
+      "keywords": [
+        "fixed deposit",
+        "fd",
+        "recurring"
+      ],
+      "answer": "Fixed deposits offer higher interest than savings for a chosen tenure (7 days to 10 years). Premature withdrawal may carry a small penalty."
+    }
+  ]
+}
